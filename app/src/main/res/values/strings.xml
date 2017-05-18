@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RobinsonCrusoe</string>
+    <string name="welcome">Welcome to Robinson Crusoe Quiz! How much do you know about the famous character of Daniel Defoe? Let\'s find out!</string>
+    <string name="new_question">New Question</string>
+    <string name="question1">Are Crusoe\'s island adventures based on a true story?</string>
+    <string name="q1a1">Yes</string>
+    <string name="q1a2">No</string>
+<string name="question2">What name did Robinson give his new savage friend?</string>
+<string name="question3">How many books about Crusoe has Defoe created?</string>
+    <string name="q3a1">One</string>
+    <string name="q3a2">Five</string>
+    <string name="q3a3">Three</string>
+<string name="question4">Some of the countries that Crusoe visited during his Farther Adventures are: </string>
+    <string name="q4a1">Canada</string>
+    <string name="q4a2">China</string>
+    <string name="q4a3">Australia</string>
+    <string name="q4a4">France</string>
+    <string name="q4a5">Russia</string>
+<string name="question5">The third book about Robinson is about his Serious Reflections During the Life and Surprising Adventures With His Vision of… </string>
+    <string name="q5a1">homeland security</string>
+    <string name="q5a2">angelic world</string>
+    <string name="q5a3">disorder</string>
+<string name="question6">Which of the following books are considered to be robinsonades?</string>
+    <string name="q6a1">The Island of the Day Before</string>
+    <string name="q6a2">Lord of the Flies</string>
+    <string name="q6a3">The Mysterious Island </string>
+    <string name="q6a4">The Lost World</string>
+    <string name="q6a5">Gulliver\'s Travels</string>
+    <string name="getres">It\'s time to get the results!</string>
+    </resources>

@@ -1,0 +1,77 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">#66000000</item>
+        <item name="colorAccent">#424242</item>
+    </style>
+
+    <style name="scrollWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/tinyPadding</item>
+    </style>
+
+    <style name="questionCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/shortPadding</item>
+        <item name="android:paddingBottom">@dimen/mediumPadding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation">@dimen/shortPadding</item>
+    </style>
+
+    <style name="questionImageWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="questionImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="questionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingLeft">@dimen/mediumPadding</item>
+        <item name="android:paddingBottom">@dimen/shortPadding</item>
+        <item name="android:paddingTop">@dimen/shortPadding</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="textInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/mediumPadding</item>
+    </style>
+
+    <style name="radioButtonGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/mediumPadding</item>
+        <item name="android:layout_marginLeft">@dimen/mediumPadding</item>
+    </style>
+
+    <style name="radioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/tinyPadding</item>
+        <item name="android:layout_marginRight">@dimen/tinyPadding</item>
+        <item name="android:layout_marginBottom">@dimen/shortPadding</item>
+    </style>
+</resources>
