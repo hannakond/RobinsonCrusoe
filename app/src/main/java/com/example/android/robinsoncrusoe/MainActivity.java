@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    int correctAnswers = 0;
+    int correctAnswers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,8 +98,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitFunction(View v) {
         checkAllQuestions();
-        Toast finalToast = Toast.makeText(MainActivity.this, "Well done! The number of questions answered correctly: " + correctAnswers + "/6", Toast.LENGTH_SHORT);
-        finalToast.show();
-        correctAnswers = 0;
+        if (correctAnswers <= 3) {
+            Toast.makeText(this, getString(R.string.trymore), Toast.LENGTH_SHORT).show();
+        } else if (correctAnswers <= 5) {
+            Toast.makeText(this, getString(R.string.almost), Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, getString(R.string.congrats), Toast.LENGTH_SHORT).show();
+        }
     }
 }

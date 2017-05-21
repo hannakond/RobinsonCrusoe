@@ -53,7 +53,7 @@
             <EditText
                 android:id="@+id/Q2input"
                 style="@style/textInput"
-                android:hint="(e.g. Monday)"
+                android:hint="@string/q2a1"
                 android:inputType="text"
                 android:maxLength="10" />
         </LinearLayout>
